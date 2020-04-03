@@ -1,0 +1,4 @@
+﻿  pch.cpp
+  WarFinalProjectOOPMY.cpp
+C:\Users\big_j\source\repos\WarFinalProjectOOP_MJ\WarFinalProjectOOPMY\Deck.h(33,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  WarFinalProjectOOPMY.vcxproj -> C:\Users\big_j\source\repos\WarFinalProjectOOP_MJ\Debug\WarFinalProjectOOPMY.exe

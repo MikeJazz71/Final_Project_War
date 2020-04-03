@@ -1,0 +1,56 @@
+Mike Jasiczek
+Advanced and OOP
+Summer 2019 CIS
+Professor George
+
+Assignment Week 2 Pseudo-code:
+
+CREATE Student Header File:
+
+DECLARE Variables:
+	First Name
+	Last Name
+	Street Address
+	City
+	Zip
+	State
+	Total Credits Attempted
+	Credit Points Earned
+	
+DECLARE Functions:
+	Set and Get functions for information entered
+	SET Functions
+	First Name
+	Last Name
+	Street Address
+	City
+	Zip
+	State
+	Total Credits Attempted
+	Credit Points Earned
+	
+	GET functions
+	First Name
+	Last Name
+	Street Address
+	City
+	Zip
+	State
+	GPA
+	
+	
+
+MAIN:
+
+#include all header files (string, student.h, pch.h, iostream)
+DECLARE am instance Student
+CREATE temp variables to set class variables
+GET all inputs from the user
+SET the class variables 
+DEFINE the set and get functions and return the proper data.
+CALCULATE the GPA
+COUT all the information
+HANDLE Exceptions such as Zipcode and negative credits.  
+		
+	
+

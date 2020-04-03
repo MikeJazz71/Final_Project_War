@@ -1,0 +1,90 @@
+Final Project PuesdoCode for the Game War;  CIS 2403 ; Professor George; 1st Benchmark
+
+Mike Jasiczek
+
+CREATE Class Card
+
+	CREATE Constructor
+	DEFINE RANK
+	DEFINE SUIT
+	DISPLAYcard()
+	
+CREATE CLASS DECK
+	CREATE Constructor
+	CREATE Deck Array
+	Shuffle()
+	
+	
+CREATE Main Screen
+	ASK the user if they would like to Play War
+	CIN Response
+		IF Yes 
+			MOVE to the Play Screen
+		ELSE 
+			EXIT
+			
+READ in a File to the Game Screen that explains the rules of the Game	
+ASK user if they are Ready to Start
+	CIN Response
+		If Yes	
+			Play Game
+		If No
+			System Pause
+			
+	SHUFFLE Cards RANDOM
+	SET Cards to default hide
+	CREATE Vector Array for Player and Computer
+	
+	PUSH Cards evenly to Player and Computer vectors
+	
+	ESTABLISH an Point Acculumlator for Player & Computer (SCORE)
+	WHILE (iCard < 51) 
+		PLAY One card from Player and Computer
+		SHOW Card
+		EVALATE the Player Cards and Computer Cards
+			IF 
+				Player 1 higher then Player1++
+				iCard++
+				COUT Score
+			ELSE If 
+				Computer higher then Computer++
+				iCard++
+				COUT Score
+				
+		
+			ELSE 
+				Play War
+				While (Computer == Player 1)
+				DEAL 3 cards Hidden
+				DEAL 1 card Show
+				ELVALUTE Last Card
+				IF 
+				Player 1 higher then 4*(Player1++)
+				ELSE If 
+				Computer higher then 4*(Computer++)
+				iCard = iCard + 4
+				COUT Score
+				
+	IF iCard == 51
+		If Player1 > Computer 
+			Congraulate Player 1
+		ELSE IF Computer > Player1
+			Congraulate Computer
+	ASK if Player wants to play again
+	CIN >> Input
+	
+	IF yes 
+		Play Game
+		
+	ELSE 
+		Return to Main Screen
+				
+		
+	
+		
+	
+	
+	
+			
+		
+
